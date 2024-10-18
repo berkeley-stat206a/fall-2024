@@ -169,8 +169,14 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#geometric-aspects-of-high-dimensional-gibbs-measures" id="toc-geometric-aspects-of-high-dimensional-gibbs-measures" class="nav-link active" data-scroll-target="#geometric-aspects-of-high-dimensional-gibbs-measures">Geometric aspects of high dimensional Gibbs measures</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -195,13 +201,15 @@ window.Quarto = {
 </header>
 
 
-<p>High dimensional Gibbs measures are ubiquitous in probability theory, statistical mechanics and theoretical computer science. A generic example, say on the hypercube <span class="math inline">\(Q=\{-1,1\}^n\)</span>, is given by a Hamitonian <span class="math inline">\(H: Q\to \mathbb{R}\)</span>, with the measure <span class="math inline">\(\mu\)</span> at <span class="math inline">\(\sigma \in Q\)</span> being proportional to <span class="math inline">\(\exp\left(-\beta H(\sigma)\right)\)</span> where <span class="math inline">\(\beta&gt;0\)</span> is the inverse temperature parameter. <span class="math inline">\(Z\)</span>, the normalizing constant, is known as the partition function. Central examples include the Ising model, spin glass models, exponential random graphs, the hardcore model and so on. Such Gibbs measures also admit natural Glauber dynamics which keep <span class="math inline">\(\mu\)</span> stationary. +The energy landscape induced by the Hamiltonian can often be quite complicated admitting exponentially many near ground states (the ground state is the state with the minimal energy).</p>
-<p>The energy landscape induced by the Hamiltonian can often be quite complicated admitting exponentially many near ground states (the ground state is the state with the minimal energy).</p>
+<section id="geometric-aspects-of-high-dimensional-gibbs-measures" class="level2">
+<h2 class="anchored" data-anchor-id="geometric-aspects-of-high-dimensional-gibbs-measures">Geometric aspects of high dimensional Gibbs measures</h2>
+<p>High dimensional Gibbs measures are ubiquitous in probability theory, statistical mechanics and theoretical computer science. A generic example, say on the hypercube <span class="math inline">\(Q=\{-1,1\}^n\)</span>, is given by a Hamiltonian <span class="math inline">\(H: Q\to \mathbb{R}\)</span>, with the measure <span class="math inline">\(\mu\)</span> at <span class="math inline">\(\sigma \in Q\)</span> being proportional to <span class="math inline">\(\exp\left(-\beta H(\sigma)\right)\)</span> where <span class="math inline">\(\beta&gt;0\)</span> is the inverse temperature parameter. <span class="math inline">\(Z\)</span>, the normalizing constant, is known as the partition function. Central examples include the Ising model, spin glass models, exponential random graphs, the hardcore model and so on. Such Gibbs measures also admit natural Glauber dynamics which keep <span class="math inline">\(\mu\)</span> stationary.</p>
 <p>The energy landscape induced by the Hamiltonian can often be quite complicated admitting exponentially many near ground states (the ground state is the state with the minimal energy).</p>
 <p>In this course we will learn various techniques to estimate the partition function as well as establish structure theorems for a variety of Gibbs measures and the behavior of the associated Glauber dynamics. Phenomena such as super-concentration, chaos, multiple valleys and peaks, replica symmetry/breaking and metastability will be explored.</p>
 <p>We will assume familiarity with the basics of graduate probability equivalent to Stat 205 A.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
