@@ -12,8 +12,6 @@ website:
         text: Home 
       - href: staff.qmd
         text: Staff
-      - href: syllabus.qmd
-        text: Syllabus
       - href: license.qmd
         text: License
           
